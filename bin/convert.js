@@ -10,7 +10,7 @@ var AttributePool = require("ep_etherpad-lite/static/js/AttributePool");
 var settingsFile = process.argv[2];
 var sqlOutputFile = process.argv[3];
 
-//stop if the settings file is not set
+//stop if the settings file is not settt
 if(!settingsFile || !sqlOutputFile)
 {
   console.error("Use: node convert.js $SETTINGSFILE $SQLOUTPUT");
